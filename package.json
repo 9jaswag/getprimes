@@ -2,7 +2,7 @@
   "name": "getprimes",
   "version": "1.0.0",
   "description": "a getPrimes function that takes an integer value n as argument and generates prime numbers from 0 to n. An Output for Andela Bootcamp LOS24 day one",
-  "main": "src/getprime.js",
+  "main": "src/getprimes.js",
   "directories": {
     "test": "tests"
   },
