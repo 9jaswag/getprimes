@@ -1,0 +1,29 @@
+{
+  "name": "getprimes",
+  "version": "1.0.0",
+  "description": "a getPrimes function that takes an integer value n as argument and generates prime numbers from 0 to n. An Output for Andela Bootcamp LOS24 day one",
+  "main": "src/getprime.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9jaswag/getprimes.git"
+  },
+  "keywords": [
+    "algorithm"
+  ],
+  "author": "Opia Chuks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9jaswag/getprimes/issues"
+  },
+  "homepage": "https://github.com/9jaswag/getprimes#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
