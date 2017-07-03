@@ -16,6 +16,9 @@ describe ('getPrimes', function(){
         it ('should return [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61] as prime of 62', function(){
             assert.deepEqual(myApp.getPrimes(62), [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61]);
         });
+        it ('should return [[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97] as prime of 62', function(){
+            assert.deepEqual(myApp.getPrimes(100), [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]);
+        });
     })
 
     describe('handle invalid input', function(){

@@ -2,9 +2,7 @@
 
 // find primes from 0 to integer n
 function getPrimes (n) {
-    // declare primes variable
-    let primes = [];
-    // handle primes
+    // handle input and get primes
     if (!(Number.isInteger(n)) || Math.sign(n) == -1 || n == 0 || n == 1) {
         return "undefined";
     } else {
