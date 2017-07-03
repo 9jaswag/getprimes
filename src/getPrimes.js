@@ -2,10 +2,11 @@
 
 // find primes from 0 to integer n
 function getPrimes (n) {
-    // handle input and get primes
+    // handle invalid input
     if (!(Number.isInteger(n)) || Math.sign(n) == -1 || n == 0 || n == 1) {
         return "undefined";
     } else {
+        // handle valid input
         for (let i = 2; i <= n; i++) {
             if(isPrime(i)) {
                 primes.push(i);
